@@ -1,4 +1,6 @@
 #!/bin/sh
+version=2.1
+description="*** TEAMNITRO by BoHLALA V1.0 ***\n Fix some issues related to xml to work skin faster\n Fix renders and converters\n Upgrade to latest python version\n add new PosterX and Extraevent skins !!!"
 initializeANSI()
 {
   esc=""
@@ -33,11 +35,6 @@ ${boldon}${redfbright}  ■■■■   ${greenf}  ■■■■■■■■${yell
 ${boldon}${yellowfbright}				    TeamNitro By BoHLALA V2.1 ${reset}
 
 EOF
-##########################################################
-version=2.1
-description="*** TEAMNITRO by BoHLALA V1.0 ***\n Fix some issues related to xml to work skin faster\n Fix renders and converters\n Upgrade to latest python version\n add new PosterX and Extraevent skins !!!"
-#########################################################
-
 #########################################################
 MY_FILE="TeamNitro.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
