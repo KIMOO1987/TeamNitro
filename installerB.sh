@@ -1,6 +1,4 @@
 #!/bin/sh
-version= 2.1
-description= BoHLALA V1.0\n Fix some issues related to xml to work skin faster\n Fix renders and converters\n Upgrade to latest python version\n add new PosterX and Extraevent skins !!!
 initializeANSI()
 {
   esc=""
@@ -32,9 +30,14 @@ ${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}     ■■�
 ${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}    ■■       ■■ ${bluef}   ■■        ■■ ${redf}    ■■    ■■    ${greenf}   ■■ ${yellowf}      ■■ ${bluef}      ■■   ■■ ${purplef}  ■■    ■■ ${reset}
 ${boldon}${redfbright}  ■■■■   ${greenf}  ■■■■■■■■${yellowf}   ■■         ■■${bluef}   ■■        ■■ ${redf}    ■■     ■■■■ ${greenf}  ■■■■${yellowf}     ■■■■${bluef}     ■■■■   ■■${purplef}    ■■■■ ${reset}
 
-${boldon}${yellowfbright}				    TeamNitro By BoHLALA V2.1 ${reset}
+${boldon}${yellowfbright}				    TeamNitro Skin BoHLALA V2.1 ${reset}
 
 EOF
+##########################################################
+version= 2.1
+description= *** TEAMNITRO Skin BoHLALA V2.1 ***\n Fix some issues related to xml to work skin faster\n Fix renders and converters\n Upgrade to latest python version\n add new PosterX and Extraevent skins !!!
+#########################################################
+
 #########################################################
 MY_FILE="TeamNitro.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
@@ -74,13 +77,20 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; then
 
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
-         echo "########################################################################"
-         echo "#          TeamNitro By BoHLALA V1.0 INSTALLED SUCCESSFULLY            s#"
-         echo "#                      BY TeamNitro - support on                       #"
-         echo "#              https://www.tunisia-sat.com/forums/forums               #"
-         echo "########################################################################"
-         echo "#        Sucessfully Download Please apply from skin selection         #"
-         echo "########################################################################"
+        echo "########################################################################"
+        echo "#          TeamNitro By BoHLALA V1.0 INSTALLED SUCCESSFULLY            s#"
+        echo "#                      BY TeamNitro - support on                       #"
+        echo "#              https://www.tunisia-sat.com/forums/forums               #"
+        echo "########################################################################"
+        echo "#        Sucessfully Download Please apply from skin selection         #"
+        echo "########################################################################"
+		if which systemctl > /dev/null 2>&1; then
+			sleep 2; systemctl restart enigma2
+		else
+			init 4
+			sleep 4 > /dev/null 2>&1
+			init 3
+		fi
 	else
 		echo "   >>>>   INSTALLATION FAILED !   <<<<"
 	fi;
@@ -95,3 +105,4 @@ else
 	 exit 1
 fi
 # ----------------------------------------------------------------------------------------------------------
+
