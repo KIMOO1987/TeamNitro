@@ -35,7 +35,7 @@ ${boldon}${yellowfbright}				    TeamNitro Skin BoHLALA V2.1 ${reset}
 EOF
 ##########################################################
 version= 2.1
-description= *** TEAMNITRO Skin BoHLALA V2.1 ***\n Fix some issues related to xml to work skin faster\n Fix renders and converters\n Upgrade to latest python version\n add new PosterX and Extraevent skins !!!
+description= TEAMNITRO Skin BoHLALA V2.1\n Fix some issues related to xml to work skin faster\n Fix renders and converters\n Upgrade to latest python version\n add new PosterX and Extraevent skins !!!
 #########################################################
 
 #########################################################
