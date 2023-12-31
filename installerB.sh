@@ -30,12 +30,12 @@ ${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}     ■■�
 ${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}    ■■       ■■ ${bluef}   ■■        ■■ ${redf}    ■■    ■■    ${greenf}   ■■ ${yellowf}      ■■ ${bluef}      ■■   ■■ ${purplef}  ■■    ■■ ${reset}
 ${boldon}${redfbright}  ■■■■   ${greenf}  ■■■■■■■■${yellowf}   ■■         ■■${bluef}   ■■        ■■ ${redf}    ■■     ■■■■ ${greenf}  ■■■■${yellowf}     ■■■■${bluef}     ■■■■   ■■${purplef}    ■■■■ ${reset}
 
-${boldon}${yellowfbright}				    TeamNitro By BoHLALA V1.0 Version 3.0 BY KIMOO1987 ${reset}
+${boldon}${yellowfbright}				    TeamNitro By BoHLALA V2.1 ${reset}
 
 EOF
 ##########################################################
 version=2.1
-description="*** TEAMNITRO by BoHlala V1.0 ***\n Fix some issues related to xml to work skin faster\n Fix renders and converters\n Upgrade to latest python version\n add new PosterX and Extraevent skins !!!"
+description="*** TEAMNITRO by BoHLALA V1.0 ***\n Fix some issues related to xml to work skin faster\n Fix renders and converters\n Upgrade to latest python version\n add new PosterX and Extraevent skins !!!"
 #########################################################
 
 #########################################################
