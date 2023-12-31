@@ -68,8 +68,8 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; then
 	echo 'Extracting ...'
 	echo $MY_SEP
 	echo ''
-	tar -xf $MY_TMP_FILE -C /
-	tar -xf $MY_TMP_FILE1 -C /
+	tar -xzvf $MY_TMP_FILE -C /
+	tar -xzvf $MY_TMP_FILE1 -C /
 	MY_RESULT=$?
 
 	rm -f $MY_TMP_FILE > /dev/null 2>&1
