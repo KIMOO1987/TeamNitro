@@ -1,6 +1,40 @@
 #!/bin/sh
 version= 2.3
-description= Skin_BoHlala
+description= Skin_BoHlala V2.3\n Skin BoHlala ready to upgrade.. Lets Fun!!!
+initializeANSI()
+{
+  esc=""
+
+  redf="${esc}[31m";     greenf="${esc}[32m"
+  yellowf="${esc}[33m"   bluef="${esc}[34m";   
+  cyanf="${esc}[36m";    purplef="${esc}[35m"   
+  
+  redfbright="${esc}[91m";     greenfbright="${esc}[92m"
+  yellowfbright="${esc}[93m"   bluefbright="${esc}[94m";   
+  cyanfbright="${esc}[96m";    purplefbright="${esc}[95m"   
+                      
+  boldon="${esc}[1m";    
+  reset="${esc}[0m"
+}
+
+# note in this first use that switching colors doesn't require a reset
+# first - the new color overrides the old one.
+
+initializeANSI
+
+cat << EOF 
+
+${boldon}${redfbright}■■■■■■■■ ${boldon}${greenfbright}  ■■■■■■■■ ${boldon}${yellowfbright}        ■  ${boldon}${bluefbright}      ■■■        ■■■ ${boldon}${redfbright}  ■■■■      ■■ ${boldon}${greenfbright}  ■■■■ ${boldon}${yellowfbright}  ■■■■■■■■ ${boldon}${bluefbright}  ■■■■■■ ${boldon}${purplefbright}      ■■■■ ${reset}
+${boldon}${redfbright}■  ■■  ■ ${boldon}${greenfbright}   ■■      ${boldon}${yellowfbright}       ■■■ ${boldon}${bluefbright}         ■■    ■■    ${boldon}${redfbright}     ■■     ■■ ${boldon}${greenfbright}   ■■  ${boldon}${yellowfbright}  ■  ■■  ■ ${boldon}${bluefbright}   ■■   ■■ ${boldon}${purplefbright}  ■■    ■■ ${reset}
+${boldon}${redfbright}   ■■    ${boldon}${greenfbright}   ■■      ${boldon}${yellowfbright}      ■■■■■${boldon}${bluefbright}       ■■  ■■■■  ■■  ${boldon}${redfbright}   ■■ ■■    ■■ ${boldon}${greenfbright}   ■■  ${boldon}${yellowfbright}     ■■    ${boldon}${bluefbright}   ■■    ■■ ${boldon}${purplefbright} ■■    ■■ ${reset}
+${boldon}${redfbright}   ■■    ${greenf}   ■■■■■■ ${yellowf}      ■(   )■   ${bluef}   ■■   ■■   ■■ ${redf}    ■■  ■■   ■■ ${greenf}   ■■ ${yellowf}      ■■ ${bluef}      ■■   ■■ ${purplef}  ■■    ■■ ${reset}
+${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}     ■■■■ ■■■■  ${bluef}   ■■        ■■ ${redf}    ■■   ■■  ■■ ${greenf}   ■■ ${yellowf}      ■■ ${bluef}      ■■ ■■   ${purplef}  ■■    ■■ ${reset}
+${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}    ■■       ■■ ${bluef}   ■■        ■■ ${redf}    ■■    ■■    ${greenf}   ■■ ${yellowf}      ■■ ${bluef}      ■■   ■■ ${purplef}  ■■    ■■ ${reset}
+${boldon}${redfbright}  ■■■■   ${greenf}  ■■■■■■■■${yellowf}   ■■         ■■${bluef}   ■■        ■■ ${redf}    ■■     ■■■■ ${greenf}  ■■■■${yellowf}     ■■■■${bluef}     ■■■■   ■■${purplef}    ■■■■ ${reset}
+
+${boldon}${yellowfbright}				    TeamNitro Skin BoHLALA V2.2 ${reset}
+
+EOF
 #########################################################
 MY_FILE="TeamNitro.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
