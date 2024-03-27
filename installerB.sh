@@ -1,5 +1,5 @@
 #!/bin/sh
-version= 2.3
+version=2.3
 description= TeamNitro BY BoHLALA V2.3\n Skin BoHlala ready for update... Lets Fun!!!
 initializeANSI()
 {
