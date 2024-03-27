@@ -1,5 +1,5 @@
-version=2.3
-description=TeamNitro
+version= 2.3
+description= TeamNitro
 #########################################################
 MY_FILE="TeamNitro.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
