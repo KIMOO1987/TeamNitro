@@ -1,6 +1,6 @@
 #!/bin/sh
 version= 2.3
-description= TeamNitro
+description= Skin_BoHlala
 #########################################################
 MY_FILE="TeamNitro.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
