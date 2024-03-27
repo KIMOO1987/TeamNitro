@@ -1,6 +1,6 @@
 #!/bin/sh
-version= 2.1
-description= TEAMNITRO BY BoHLALA V2.1\n Fix some issues related to xml to work skin faster\n Fix renders and converters\n Upgrade to latest python version\n add new PosterX and Extraevent skins !!!
+version= 2.3
+description= TeamNitro BY BoHLALA V2.3\n Skin BoHlala ready for update... Lets Fun!!!
 initializeANSI()
 {
   esc=""
@@ -32,13 +32,13 @@ ${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}     ■■�
 ${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}    ■■       ■■ ${bluef}   ■■        ■■ ${redf}    ■■    ■■    ${greenf}   ■■ ${yellowf}      ■■ ${bluef}      ■■   ■■ ${purplef}  ■■    ■■ ${reset}
 ${boldon}${redfbright}  ■■■■   ${greenf}  ■■■■■■■■${yellowf}   ■■         ■■${bluef}   ■■        ■■ ${redf}    ■■     ■■■■ ${greenf}  ■■■■${yellowf}     ■■■■${bluef}     ■■■■   ■■${purplef}    ■■■■ ${reset}
 
-${boldon}${yellowfbright}				    TeamNitro Skin BoHLALA V2.1 ${reset}
+${boldon}${yellowfbright}				    TeamNitro Skin BoHLALA V2.2 ${reset}
 
 EOF
 #########################################################
 MY_FILE="TeamNitro.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
-MY_FILE1="Team_Nitro-by_BoHlala-V_1.0.tar.gz"
+MY_FILE1="Team_Nitro-by_BoHlala-V_1.1.tar.gz"
 MY_TMP_FILE1="/var/volatile/tmp/"$MY_FILE1
 #########################################################
 
@@ -52,7 +52,7 @@ echo ''
 
 
 wget -O /var/volatile/tmp/TeamNitro.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/skins/TeamNitro.tar.gz"
-wget -O /var/volatile/tmp/Team_Nitro-by_BoHlala-V_1.0.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/skins/Team_Nitro-by_BoHlala-V_1.0.tar.gz"
+wget -O /var/volatile/tmp/Team_Nitro-by_BoHlala-V_1.1.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/skins/Team_Nitro-by_BoHlala-V_1.1.tar.gz"
 
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro"
 rm -rf "/usr/share/enigma2/BoHLALA_FHD"
@@ -75,7 +75,7 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; then
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
         echo "########################################################################"
-        echo "#          TeamNitro By BoHLALA V1.0 INSTALLED SUCCESSFULLY            s#"
+        echo "#          TeamNitro By BoHLALA V2.3 INSTALLED SUCCESSFULLY            s#"
         echo "#                      BY TeamNitro - support on                       #"
         echo "#              https://www.tunisia-sat.com/forums/forums               #"
         echo "########################################################################"
@@ -102,4 +102,3 @@ else
 	 exit 1
 fi
 # ----------------------------------------------------------------------------------------------------------
-
