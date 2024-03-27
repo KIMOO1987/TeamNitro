@@ -1,6 +1,6 @@
 #!/bin/sh
 version=2.3
-description= TeamNitro BY BoHLALA V2.3\n Skin BoHlala ready for update... Lets Fun!!!
+description= TeamNitro Skin BoHLALA V2.3\n Skin BoHlala ready to upgrade... Lets Fun!!!
 initializeANSI()
 {
   esc=""
