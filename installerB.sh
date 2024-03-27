@@ -1,5 +1,5 @@
 version=2.3
-description=TeamNitro Skin BoHLALA V2.3\n Skin BoHlala ready to upgrade... Lets Fun!!!
+description=TeamNitro
 #########################################################
 MY_FILE="TeamNitro.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
