@@ -1,5 +1,5 @@
 #!/bin/sh
-version= 2.3
+version= 2.4
 description= Skin_BoHlala V2.3\n Skin BoHlala ready to upgrade.. Lets Fun!!!
 initializeANSI()
 {
