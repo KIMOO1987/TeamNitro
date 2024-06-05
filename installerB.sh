@@ -1,4 +1,3 @@
-#!/bin/sh
 version=2.4
 description=BoHlala V1.2L\n Skin BoHlala ready to upgrade.. Lets Fun!!!
 #########################################################
