@@ -1,6 +1,7 @@
 #!/bin/sh
+#########################################################
 version=2.4
-description=BoHlala V1.2L\n Skin BoHlala ready to upgrade.. Lets Fun!!!
+description="BoHlala V1.2L\n Skin BoHlala ready to upgrade... Let's Fun" !!!
 #########################################################
 MY_FILE="TeamNitro.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
