@@ -80,13 +80,13 @@ if [ -f $MY_TMP_FILE ]; then
 		echo "#                      BY TeamNitro - support on                       #"
         echo "#              https://www.tunisia-sat.com/forums/forums               #"
         echo "########################################################################"
-		if which systemctl > /dev/null 2>&1; then
-			sleep 2; systemctl restart enigma2
-		else
-			init 4
-			sleep 4 > /dev/null 2>&1
-			init 3
-		fi
+		# if which systemctl > /dev/null 2>&1; then
+		# 	sleep 2; systemctl restart enigma2
+		# else
+		# 	init 4
+		# 	sleep 4 > /dev/null 2>&1
+		# 	init 3
+		# fi
 	else
 		echo "   >>>>   INSTALLATION FAILED !   <<<<"
 	fi;
