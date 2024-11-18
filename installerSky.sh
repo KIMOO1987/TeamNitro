@@ -48,7 +48,7 @@ echo $MY_SEP
 echo ''
 
 
-wget -O /var/volatile/tmp/skyScript.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/script/skyScript.tar.gz"
+wget -O /var/volatile/tmp/skyScript.tar.gz --no-check-certificate "https://github.com/KIMOO1987/TeamNitro/raw/refs/heads/main/skyScript.tar.gz"
 
 if [ -f $MY_TMP_FILE ]; then
 
