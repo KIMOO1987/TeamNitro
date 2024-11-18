@@ -46,9 +46,9 @@ EOF
 
 	if [ $MY_RESULT -eq 0 ]; then
         echo "#########################################################"
-        echo "#      skyTeamNitro Script-1 Exectute Successfully      #"
-		echo "#               BY TeamNitro - support on               #"
-        echo "#       https://www.tunisia-sat.com/forums/forums       #"
+        echo "#              skyTeamNitro Script-1 Exectute Successfully"
+		echo "#                         BY TeamNitro - support on"
+        echo "#                https://www.tunisia-sat.com/forums/forums"
         echo "#########################################################"
 	else
 		echo "   >>>>   INSTALLATION FAILED !   <<<<"
