@@ -1,9 +1,5 @@
 #!/bin/sh
 #########################################################
-# version= 1.0
-# description= AL_AYAM_FHD V1.0\n Presenting the new skin by TeamNitro\n Ready to Download... Lets Fun !!!
-#########################################################
-
 initializeANSI()
 {
   esc=""
@@ -35,33 +31,7 @@ ${boldon}${redfbright}  ■■■■   ${greenf}  ■■■■■■■■${yell
 ${boldon}${yellowfbright}				    TeamNitro ControlCenter ${reset}
 
 EOF
-
 #########################################################
-MY_FILE="skyScript.tar.gz"
-MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
-#########################################################
-
-MY_SEP='============================================================='
-echo $MY_SEP
-echo 'Downloading '$MY_FILE' ...'
-echo $MY_SEP
-echo ''
-
-
-wget -O /var/volatile/tmp/skyScript.tar.gz --no-check-certificate "https://github.com/KIMOO1987/TeamNitro/raw/refs/heads/main/skyScript.tar.gz"
-
-if [ -f $MY_TMP_FILE ]; then
-
-	echo ''
-	echo $MY_SEP
-	echo 'Extracting ...'
-	echo $MY_SEP
-	echo ''
-	tar -xzvf $MY_TMP_FILE -C /
-
-	rm -f $MY_TMP_FILE > /dev/null 2>&1
-
-	echo ''
 
 	python /usr/lib/enigma2/python/Plugins/Extensions/TeamNitro/slyk/scraper.py
 
@@ -80,13 +50,6 @@ if [ -f $MY_TMP_FILE ]; then
 		echo "#                      BY TeamNitro - support on                       #"
         echo "#              https://www.tunisia-sat.com/forums/forums               #"
         echo "########################################################################"
-		# if which systemctl > /dev/null 2>&1; then
-		# 	sleep 2; systemctl restart enigma2
-		# else
-		# 	init 4
-		# 	sleep 4 > /dev/null 2>&1
-		# 	init 3
-		# fi
 	else
 		echo "   >>>>   INSTALLATION FAILED !   <<<<"
 	fi;
