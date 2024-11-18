@@ -38,7 +38,7 @@ EOF
 
 #########################################################
 MY_FILE="skyScript.tar.gz"
-MY_TMP_FILE="/var/volatile/tmp/$MY_FILE"
+MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
 #########################################################
 
 MY_SEP='============================================================='
@@ -57,7 +57,7 @@ if [ -f $MY_TMP_FILE ]; then
 	echo 'Extracting ...'
 	echo $MY_SEP
 	echo ''
-	tar -xzvf $MY_TMP_FILE -C/
+	tar -xzvf $MY_TMP_FILE -C /
 
 	rm -f $MY_TMP_FILE > /dev/null 2>&1
 
