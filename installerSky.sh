@@ -28,7 +28,7 @@ ${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}     ■■�
 ${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}    ■■       ■■ ${bluef}   ■■        ■■ ${redf}    ■■    ■■    ${greenf}   ■■ ${yellowf}      ■■ ${bluef}      ■■   ■■ ${purplef}  ■■    ■■ ${reset}
 ${boldon}${redfbright}  ■■■■   ${greenf}  ■■■■■■■■${yellowf}   ■■         ■■${bluef}   ■■        ■■ ${redf}    ■■     ■■■■ ${greenf}  ■■■■${yellowf}     ■■■■${bluef}     ■■■■   ■■${purplef}    ■■■■ ${reset}
 
-${boldon}${yellowfbright}				    TeamNitro ControlCenter ${reset}
+${boldon}${yellowfbright}				    TeamNitro ControlCenter skyPoster Updating ${reset}
 
 EOF
 #########################################################
@@ -45,11 +45,11 @@ EOF
 	MY_RESULT=$?
 
 	if [ $MY_RESULT -eq 0 ]; then
-        echo "########################################################################"
-        echo "#              skyTeamNitro Script-1 Exectute Successfully             #"
-		echo "#                      BY TeamNitro - support on                       #"
-        echo "#              https://www.tunisia-sat.com/forums/forums               #"
-        echo "########################################################################"
+        echo "#########################################################"
+        echo "#      skyTeamNitro Script-1 Exectute Successfully      #"
+		echo "#               BY TeamNitro - support on               #"
+        echo "#       https://www.tunisia-sat.com/forums/forums       #"
+        echo "#########################################################"
 	else
 		echo "   >>>>   INSTALLATION FAILED !   <<<<"
 	fi;
